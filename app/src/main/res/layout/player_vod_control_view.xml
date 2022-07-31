@@ -98,7 +98,7 @@
                 android:background="@drawable/button_dialog_main_f"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
-                android:text="下集"
+                android:text="▶"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
 
@@ -111,7 +111,7 @@
                 android:background="@drawable/button_dialog_main_f"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
-                android:text="上集"
+                android:text="◀"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
             
@@ -137,7 +137,7 @@
                 android:background="@drawable/button_dialog_main_f"
                 android:focusable="true"
                 android:padding="@dimen/vs_10"
-                android:text="重播"
+                android:text=" ↺ "
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
 

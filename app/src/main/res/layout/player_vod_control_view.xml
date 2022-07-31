@@ -219,7 +219,21 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
   
-             <TextView
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/parse_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/vs_10"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            tools:visibility="visible">
+            
+            <TextView
                 android:id="@+id/play_player"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -244,18 +258,6 @@
                 android:text="硬解码"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:id="@+id/parse_root"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/vs_10"
-            android:orientation="horizontal"
-            android:visibility="gone"
-            tools:visibility="visible">
             
 
 

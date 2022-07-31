@@ -49,7 +49,7 @@
                 android:textStyle="bold"
                 android:visibility="visible" />
 
-        </LinearLayout>
+             </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -219,7 +219,31 @@
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/ts_24" />
   
+             <TextView
+                android:id="@+id/play_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/vs_5"
+                android:layout_marginRight="@dimen/vs_5"
+                android:background="@drawable/button_dialog_main_f"
+                android:focusable="true"
+                android:padding="@dimen/vs_10"
+                android:text="系统播放器"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ts_24" />
 
+            <TextView
+                android:id="@+id/play_ijk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/vs_5"
+                android:layout_marginRight="@dimen/vs_5"
+                android:background="@drawable/button_dialog_main_f"
+                android:focusable="true"
+                android:padding="@dimen/vs_10"
+                android:text="硬解码"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/ts_24" />
 
         </LinearLayout>
 
@@ -256,31 +280,7 @@
                 app:tv_selectedItemIsCentered="true"
                 app:tv_verticalSpacingWithMargins="@dimen/vs_5" />
             
-             <TextView
-                android:id="@+id/play_player"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/vs_5"
-                android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main_f"
-                android:focusable="true"
-                android:padding="@dimen/vs_10"
-                android:text="系统播放器"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
 
-            <TextView
-                android:id="@+id/play_ijk"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="@dimen/vs_5"
-                android:layout_marginRight="@dimen/vs_5"
-                android:background="@drawable/button_dialog_main_f"
-                android:focusable="true"
-                android:padding="@dimen/vs_10"
-                android:text="硬解码"
-                android:textColor="@android:color/white"
-                android:textSize="@dimen/ts_24" />
             
         </LinearLayout>
 

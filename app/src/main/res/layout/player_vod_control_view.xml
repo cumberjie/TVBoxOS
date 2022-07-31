@@ -350,7 +350,7 @@
             android:ellipsize="end"
             android:maxLines="1"
             android:padding="@dimen/vs_20"
-            //android:text="http://"
+            android:text="http://"
             android:textColor="@android:color/white"
             android:textSize="@dimen/ts_24" />
 

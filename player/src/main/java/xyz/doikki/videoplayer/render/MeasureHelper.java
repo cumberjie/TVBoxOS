@@ -58,7 +58,7 @@ public class MeasureHelper {
                 width = mVideoWidth;
                 height = mVideoHeight;
                 break;
-            case VideoView.SCREEN_SCALE_16_9:
+          /*  case VideoView.SCREEN_SCALE_16_9:
                 if (height > width / 16 * 9) {
                     height = width / 16 * 9;
                 } else {
@@ -71,11 +71,11 @@ public class MeasureHelper {
                 } else {
                     width = height / 3 * 4;
                 }
-                break;
+                break;      
             case VideoView.SCREEN_SCALE_MATCH_PARENT:
                 width = widthMeasureSpec;
                 height = heightMeasureSpec;
-                break;
+                break;                   */
             case VideoView.SCREEN_SCALE_CENTER_CROP:
                 if (mVideoWidth * height > width * mVideoHeight) {
                     width = height * mVideoWidth / mVideoHeight;

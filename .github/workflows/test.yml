@@ -29,7 +29,5 @@ jobs:
         with:
           name: com.github.tvbox.osc
           path: ${{ github.workspace }}/apk/*
-          default_author: github_actions
-          message: 'update github_actions apk'
-          add: "['./github_actions.apk']"
+
 

@@ -173,8 +173,8 @@ public class PlayerHelper {
                 scaleText = "4:3";
                 break;
             case VideoView.SCREEN_SCALE_MATCH_PARENT:
-                scaleText = "填充";  */
-                break;
+                scaleText = "填充";  
+                break;*/
             case VideoView.SCREEN_SCALE_ORIGINAL:
                 scaleText = "原始";
                 break;
